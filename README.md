@@ -1,15 +1,15 @@
 Data Projects (TripleTen)
-# Project_13_TT
-Project_13  Time Series Analysis:
-Project-13: Time Series Forecasting of Taxi Orders for Peak Hour Prediction
+#### Project_13_TT  Time Series Analysis:
 
-## Project Overview
+# Project-13: Time Series Forecasting of Taxi Orders for Peak Hour Prediction
+
+### Project Overview
 
 **Sweet Lift Taxi Company** has gathered historical taxi order data from airports to optimize driver allocation during peak hours. The company needs to predict the number of taxi orders for the next hour to improve efficiency in driver distribution. The objective of this project is to analyze and forecast taxi orders using time series models, with the goal of accurately predicting demand during peak times.
 
 This project focuses on using various time series models to forecast the number of taxi orders for the upcoming hour, ensuring that the Root Mean Squared Error (RMSE) metric on the test set does not exceed 48.
 
-## Project Description
+### Project Description
 
 To forecast taxi orders, the dataset was resampled to hourly intervals and analyzed for trends, seasonality, and residuals. The following steps were taken:
 
@@ -25,7 +25,7 @@ To forecast taxi orders, the dataset was resampled to hourly intervals and analy
 
 4. **Model Evaluation**: The performance of each model was evaluated using **Root Mean Squared Error (RMSE)**. All models were optimized to ensure that the RMSE on the test set did not exceed the threshold of 48.
 
-## Data Description
+### Data Description
 
 The dataset `taxi.csv` contains historical taxi order data with the following columns:
 
@@ -34,7 +34,7 @@ The dataset `taxi.csv` contains historical taxi order data with the following co
 
 You can find the dataset in the `taxi.csv` file. Ensure you have this file available to run the analysis.
 
-## Requirements
+### Requirements
 
 To run this project, you will need the following Python libraries:
 
@@ -49,10 +49,14 @@ You can install the required libraries by running:
 pip install pandas numpy matplotlib statsmodels pmdarima
 
 
-Conclusion
+### Conclusion
+
+
 The project successfully utilized various time series forecasting models to predict the number of taxi orders at airports, with the aim of optimizing driver allocation during peak hours. By applying Autoregressive (AR), Moving Average (MA), and ARMA models, we were able to achieve accurate forecasts, with RMSE values consistently below the threshold of 48.
 
-Key Findings:
+### Key Findings:
+
+
 Autoregressive (AR) Model: Achieved accurate predictions based on the autocorrelation patterns.
 Hyperparameter-Optimized AR: Improved model performance by fine-tuning hyperparameters.
 Moving Average (MA) Model: Performed well in capturing short-term dependencies.
